@@ -16,7 +16,7 @@ class Student < ActiveRecord::Base
 
 
 def search
-  
+  Student.all
 end
 
 end
